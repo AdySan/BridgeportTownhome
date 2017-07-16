@@ -33,9 +33,9 @@ main {
 .decoration-circle-b:before {
 	content: '';
 	position: absolute;
-	z-index: 1;
-	border: 120px solid;
-	border-radius: 50%;
-	width: 600px;
-	height: 600px;
+	z-index: -1;
+	border: 0px solid;
+	border-radius: 0%;
+	width: 0px;
+	height: 0px;
 }

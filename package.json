@@ -4,8 +4,8 @@
   "description": "Static layout of Karak Studio company website.",
   "author": "Joanna Ławniczak <lawniczak.joanna@gmail.com>",
   "repository": {
-    "type" : "git",
-    "url" : "git@github.com:joannalawniczak/karak-studio.git"
+    "type": "git",
+    "url": "git@github.com:joannalawniczak/karak-studio.git"
   },
   "scripts": {
     "build": "./node_modules/.bin/gulp build",

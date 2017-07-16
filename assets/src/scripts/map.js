@@ -8,7 +8,7 @@ function initMap() {
 
 	// Inject google map to specified container.
 	const map = new google.maps.Map( document.getElementById( 'map' ), {
-		center: { lat: 54.489566, lng: 18.531477 },
+		center: { lat: 34.427673, lng: -118.545813 },
 		scrollwheel: false,
 		draggable: !isTouchDevice,
 		disableDoubleClickZoom: isTouchDevice,
@@ -25,11 +25,11 @@ function initMap() {
 
 	// Put marker on the map.
 	new google.maps.Marker( {
-		position: { lat: 54.489566, lng: 18.531477 },
+		position: { lat: 34.427673, lng: -118.545813 },
 		map: map,
 		animation: google.maps.Animation.DROP,
-		title: 'Karak Studio',
-		icon: 'assets/dist/images/marker.png'
+		title: '23415 Shorebreak Ln. Unit 59, Valencia, CA 91355',
+		icon: 'assets/dist/images/map-pin-red-hi.png'
 	} );
 }
 
