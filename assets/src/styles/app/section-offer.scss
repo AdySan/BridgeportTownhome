@@ -30,6 +30,43 @@
 		padding: 0;
 	}
 
+
+.offer-intro {
+	background: 50% 50% no-repeat;
+	background-image: url(../images/bg-offer-intro.svg);
+	background-size: cover;
+	padding: 150px 0 40px;
+
+	.content {
+		position: relative;
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+
+		div {
+			width: 53%;
+			margin-left: 16%;
+
+			p {
+				padding-bottom: 20px;
+			}
+		}
+	}
+
+	footer {
+		text-align: center;
+		padding-top: 80px;
+
+		@media all and(max-width: 1024px) {
+			padding-top: 60px;
+		}
+
+		@media all and(max-width: 736px) {
+			padding-top: 40px;
+		}
+	}
+}
+
 	.offer-list {
 		display: flex;
 		justify-content: space-between;
